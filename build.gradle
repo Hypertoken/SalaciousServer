@@ -8,7 +8,7 @@ group 'PZHook_server'
 def Version = '1.0'
 version = Version
 
-def PZGameFolder = 'D:\\SteamCMD\\steamapps\\common\\Project Zomboid Dedicated Server'
+def PZGameFolder = '/home/chris/ZomboidGame/serve/'
 
 // Disable Unused Default Tasks
 project.gradle.startParameter.excludedTaskNames.add(':processResources')
